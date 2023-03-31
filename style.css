@@ -27,11 +27,8 @@ margin-block-start: 0.67em;
     margin-inline-end: 0px;
 }
 
-h1 {
-    color: black;
-    font-weight: bold;
-    font-family: "Playfair Display", serif ;
-}
+
+
 
 div{
     display: block;
