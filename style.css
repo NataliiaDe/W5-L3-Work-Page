@@ -24,3 +24,7 @@ h1, h2{
     font-weight: bold;
     font-family: "Playfair Display", serif ;
 }
+
+div{
+    display: block;
+}
