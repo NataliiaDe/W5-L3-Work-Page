@@ -20,7 +20,14 @@ body {
     font-weight: 700;
 }
 
-h1, h2{
+h1{
+margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1, {
     color: black;
     font-weight: bold;
     font-family: "Playfair Display", serif ;
@@ -43,4 +50,10 @@ border-radius: nullpx;
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+@media (max-width: 900px)
+h1 {
+    font-size: 44px;
+    line-height: 56px;
 }
